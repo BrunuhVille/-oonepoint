@@ -19,5 +19,8 @@ cd onepoint-master/
 npm install
 运行
 pm2 start bin/index_node.js
-
-
+pm2 stop index_node
+#停止 onepoint
+pm2 list
+#列出所有任务
+~~~
